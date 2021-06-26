@@ -2,15 +2,17 @@ import React from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
 import styles from './LogInStyle';
 import auth from '@react-native-firebase/auth';
+import { useNavigation } from '@react-navigation/native';
 
-const EntryDone = (props) => {
+const EntryDone = props => {
+  const user = props.user;
+  const signOut = () => {
+    auth()
+      .signOut()
+      .then(() => console.log('User signed out!'));
+  };
 
-    const user=props.user
-    const signOut = () => {
-        auth()
-          .signOut()
-          .then(() => console.log('User signed out!'));
-      };
+const navigation=useNavigation()
 
   return (
     <View style={styles.base}>
@@ -24,7 +26,7 @@ const EntryDone = (props) => {
             alignContent: 'center',
             backgroundColor: '#3A4750',
             elevation: 20,
-            borderRadius: 20,
+            borderRadius: 5,
           }}>
           <Text
             style={{
@@ -36,10 +38,14 @@ const EntryDone = (props) => {
               paddingBottom: '2%',
               paddingTop: '2%',
             }}>
-            {user.email}
+            {` Welcome ${user.email}`}
           </Text>
         </View>
-        <TouchableOpacity style={styles.button1}>
+        <TouchableOpacity
+          style={styles.button1}
+          onPress={() => {
+            navigation.navigate('Info');
+          }}>
           <Text style={styles.text1}>Move to next screen</Text>
         </TouchableOpacity>
       </View>

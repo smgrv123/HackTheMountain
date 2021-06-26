@@ -48,6 +48,9 @@ const LoginScreen = props => {
         if (error.code === 'auth/invalid-email') {
           Alert.alert('That email address is invalid!');
         }
+        if(error.code==='auth/user-not-found'){
+          setSigninErr(error)
+        }
 
         console.error(error);
       });

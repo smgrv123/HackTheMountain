@@ -13,12 +13,12 @@ const Landing = props => {
         onPress={() => {
           props.navigation.navigate('LoginScreen');
         }}>
-        <Text style={styles.loginText}>Log-In</Text>
+        <Text style={styles.loginText}>SignUp</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.signupButton} onPress={() => {
         props.navigation.navigate('SignUp')
       }}>
-        <Text style={styles.signupText}>SignUp</Text>
+        <Text style={styles.signupText}>Log-In</Text>
       </TouchableOpacity>
     </View>
   );
