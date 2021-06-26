@@ -9,7 +9,7 @@ import { toast } from '../../toast';
 export default function Login(): ReactElement {
   const [username, setusername] = useState('');
   const [password, setpassword] = useState('');
-  const [authenticating, setAuthenticating] = useState<boolean>(false);
+  const [, setAuthenticating] = useState<boolean>(false);
   const history = useHistory();
   async function login() {
     setAuthenticating(true);
