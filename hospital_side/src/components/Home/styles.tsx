@@ -18,3 +18,5 @@ export const Input = styled.input`
   height: 5vh;
   width: 15vw;
 `;
+
+export const PatientLists = styled.div``;

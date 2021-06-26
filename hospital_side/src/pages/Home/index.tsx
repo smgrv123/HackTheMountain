@@ -1,5 +1,4 @@
-import { IonButton, IonModal } from '@ionic/react';
-import React, { ReactElement, useState } from 'react';
+import React, { ReactElement } from 'react';
 import { PatientModal } from '../../components/Home/PatientModal';
 
 export default function Home(): ReactElement {
