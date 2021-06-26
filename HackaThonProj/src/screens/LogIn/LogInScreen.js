@@ -1,12 +1,21 @@
 import React, {useState, useEffect} from 'react';
-import {View, Text, TouchableOpacity, Alert, StyleSheet} from 'react-native';
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  Alert,
+  useWindowDimensions,
+} from 'react-native';
 import {Input} from 'react-native-elements';
 import {useNavigation} from '@react-navigation/native';
 import Email from 'react-native-vector-icons/Entypo';
 import Pass from 'react-native-vector-icons/MaterialCommunityIcons';
 import auth from '@react-native-firebase/auth';
+import styles from './LogInStyle'
+import EntryDone from './EntryDone';
 
 const LoginScreen = props => {
+  const {width: windowWidth, height: windowHeight} = useWindowDimensions();
   const [err, setErr] = useState(true);
   const [pass, setPass] = useState('');
   const [passValid, setPassValid] = useState(true);
@@ -29,7 +38,7 @@ const LoginScreen = props => {
     auth()
       .signInWithEmailAndPassword(email, pass)
       .then(() => {
-        Alert.alert('User signed in!');
+        console.log();
       })
       .catch(error => {
         if (error.code === 'auth/email-already-in-use') {
@@ -43,6 +52,8 @@ const LoginScreen = props => {
         console.error(error);
       });
   }
+
+
 
   const validation = () => {
     let regEmail =
@@ -65,7 +76,7 @@ const LoginScreen = props => {
 
   if (!user) {
     return (
-      <View style={{backgroundColor: '#303841', flex: 1}}>
+      <View style={styles.base}>
         <View style={{flex: 2, justifyContent: 'center'}}>
           <Text style={styles.head}>Log In to Medic !!</Text>
         </View>
@@ -155,58 +166,18 @@ const LoginScreen = props => {
               validation();
             }}
             style={styles.button}>
-            <Text
-              style={{
-                color: '#3A4750',
-                textAlign: 'center',
-                fontSize: 22,
-                fontWeight: 'bold',
-              }}>
-              Log In
-            </Text>
+            <Text style={styles.text}>Log In</Text>
           </TouchableOpacity>
         </View>
       </View>
     );
   } else {
     return (
-      <View>
-        <Text>hello</Text>
-      </View>
+      <EntryDone user={user} />
     );
   }
 };
 
-const styles = StyleSheet.create({
-  icon: {
-    backgroundColor: '#fff',
-    height: 48,
-    paddingRight: 5,
-    borderTopRightRadius: 10,
-    borderBottomRightRadius: 10,
-  },
-  head: {
-    color: '#00ADB5',
-    fontSize: 30,
-    justifyContent: 'space-around',
-    textAlign: 'center',
-    fontWeight: 'bold',
-    justifyContent: 'center',
-  },
-  button: {
-    alignSelf: 'center',
-    alignContent: 'center',
-    backgroundColor: '#00ADB5',
-    width: '50%',
-    borderRadius: 20,
-    height: 40,
-  },
-  title: {
-    paddingLeft: '2%',
-    fontWeight: 'bold',
-    fontSize: 17,
-    marginBottom: '1%',
-  },
-});
+
 
 export default LoginScreen;
