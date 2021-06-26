@@ -51,9 +51,12 @@ def get_predictions(random_id):
         dict[col] = data_predict
     dict['Date'] = datetime
     predictions_df = pd.DataFrame(data = dict, columns= column_list)
-    original_data.append(predictions_df)
-    original_data.to_json('./json/hospital'+ str(random_id)+ '.json')
-    return 0
+    predictions_df = original_data.append(predictions_df)
+    predictions_df.to_json('./json_predictions/hospital'+ str(random_id)+ '.json')
+    with open('./json_predictions/hospital'+ str(random_id)+ '.json', 'r') as jsonfile:
+        file_data = json.loads(jsonfile.read())
+    return json.dumps(file_data)
+    
 
 
 @app.route('/update_hospital_data/<random_id>', methods =["GET", "POST"])
