@@ -71,9 +71,9 @@
 </p>
 </td>
 <td>
-<strong>Shubra Agarwal</strong>
+<strong>Shubhra Agarwal</strong>
 <p align="center">
-<img src = "" alt="Shubra Agarwal">
+<img src = "" alt="Shubhra Agarwal">
 </p>
 <p align="center">
 <a href = "https://github.com/shubhraagarwal"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
