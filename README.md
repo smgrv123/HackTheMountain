@@ -14,7 +14,7 @@
 
 ## View from the hospital's dashboard
 
-![image](https://user-images.githubusercontent.com/67220475/123537182-c6a2a900-d74b-11eb-8ef4-41c3f6315a20.png)
+![image](https://user-images.githubusercontent.com/67220475/123538320-f654af80-d751-11eb-9e74-914d86ea56aa.png)
 
 ## Adding a new patient details
 
