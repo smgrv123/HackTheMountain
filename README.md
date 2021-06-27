@@ -61,7 +61,7 @@
 <td>
 <strong>Breenda Das</strong>
 <p align="center">
-<img src = ""  height="120" alt="Breenda Das">
+<img src = "https://cdn.discordapp.com/attachments/857649911759896579/858635368945156116/breenda.jpeg"  height="120" alt="Breenda Das">
 </p>
 <p align="center">
 <a href = "https://github.com/ds-brx"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -73,7 +73,7 @@
 <td>
 <strong>Shubhra Agarwal</strong>
 <p align="center">
-<img src = "" alt="Shubhra Agarwal">
+<img src = "https://cdn.discordapp.com/attachments/852945305280577588/853135575421943858/Untitled_design.png" alt="Shubhra Agarwal" height="120">
 </p>
 <p align="center">
 <a href = "https://github.com/shubhraagarwal"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -89,7 +89,7 @@
 <td>
 <strong>Palak Aggarwal</strong>
 <p align="center">
-<img src = "" alt="Palak Aggarwal">
+<img src = "https://cdn.discordapp.com/attachments/857649911759896579/858635259079032832/palak.jpg" alt="Palak Aggarwal" height="120">
 </p>
 <p align="center">
 <a href = "https://github.com/Palak-Aggarwal1234"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -101,7 +101,7 @@
 <td>
 <strong>Sumrit Grover</strong>
 <p align="center">
-<img src = "" alt="Sumrit Grover">
+<img src = "https://cdn.discordapp.com/attachments/852945305280577588/852945815592632360/sumrit_grover.jpg" alt="Sumrit Grover" height="120">
 </p>
 <p align="center">
 <a href = "https://github.com/smgrv123"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
