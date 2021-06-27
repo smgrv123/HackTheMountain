@@ -11,11 +11,6 @@ interface Props {
 }
 
 export default function Home(data: Props): ReactElement {
-  axios
-    .get('http://127.0.0.1:5000/get_existing_hospital_data/abc')
-    .then((res) => {
-      console.log(res);
-    });
   return (
     <div>
       <PatientModal />
