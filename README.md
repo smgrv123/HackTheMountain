@@ -74,7 +74,7 @@
 <td>
 <strong>Shubra Agarwal</strong>
 <p align="center">
-<img src = "https://avatars2.githubusercontent.com/u/60016461?s=400&u=9e9d50e037da73a840a5c43f8f2c2b98942452aa&v=4"  height="120" alt="Shubra Agarwal">
+<img src = "" alt="Shubra Agarwal">
 </p>
 <p align="center">
 <a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -90,7 +90,7 @@
 <td>
 <strong>Palak Aggarwal</strong>
 <p align="center">
-<img src = "https://avatars3.githubusercontent.com/u/54375111?s=460&u=0585ce48d7a98d878ee16041d73695e37b17ade0&v=4"  height="120" alt="Palak Aggarwal">
+<img src = "" alt="Palak Aggarwal">
 </p>
 <p align="center">
 <a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -102,7 +102,7 @@
 <td>
 <strong>Sumrit Grover</strong>
 <p align="center">
-<img src = "https://avatars0.githubusercontent.com/u/60016972?s=460&u=44becacb17c82494c8a16c1d17f9f7183f8d67c3&v=4"  height="120" alt="Sumrit Grover">
+<img src = "" alt="Sumrit Grover">
 </p>
 <p align="center">
 <a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
