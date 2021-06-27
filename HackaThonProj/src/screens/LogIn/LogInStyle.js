@@ -41,10 +41,11 @@ const styles=StyleSheet.create({
         alignSelf: 'center',
         alignContent: 'center',
         backgroundColor: '#00ADB5',
-        borderRadius: 20,
+        borderRadius: 10,
         height: 40,
         marginTop: '10%',
         elevation: 15,
+        justifyContent:"center"
       },
       text1: {
         color: '#EEEEEE',
