@@ -18,6 +18,21 @@
 ## Adding a new patient details
 
 ![image](https://user-images.githubusercontent.com/67220475/123537241-08cbea80-d74c-11eb-9c1f-5f50a9db0356.png)
+  
+## Patient's Side
+  
+  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645348040704020/Screenshot_1624787227.png"  height="400" alt="Patient">
+  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645348356718602/Screenshot_1624787314.png"  height="400" alt="Patient">
+  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645349374754836/Screenshot_1624787321.png"  height="400" alt="Patient">
+  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645351220641792/Screenshot_1624787342.png"  height="400" alt="Patient">
+  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645346975612938/Screenshot_1624787366.png"  height="400" alt="Patient">
+  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645341750689792/Screenshot_1624787356.png"  height="400" alt="Patient">
+
+## Firebase
+  ![image](https://user-images.githubusercontent.com/67220475/123540391-58b2ad80-d75c-11eb-8496-48657e799d9e.png)
+  ![image](https://user-images.githubusercontent.com/67220475/123540394-5d776180-d75c-11eb-9b17-0ca74b77292b.png)
+  ![image](https://user-images.githubusercontent.com/67220475/123540396-61a37f00-d75c-11eb-8ac8-acc99a53abc1.png)
+
 
 ## The problem Medic solves
 
