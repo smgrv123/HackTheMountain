@@ -46,7 +46,7 @@ const navigation=useNavigation()
           onPress={() => {
             navigation.navigate('Info');
           }}>
-          <Text style={styles.text1}>Move to next screen</Text>
+          <Text style={styles.text1}>Find Hospitals</Text>
         </TouchableOpacity>
       </View>
       <View style={{flex: 2}}>

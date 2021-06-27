@@ -5,6 +5,7 @@ import Landing from './src/screens/Landing/Landing';
 import LoginScreen from './src/screens/SignUp/SignUpScreen';
 import SignUp from './src/screens/LogIn/LogInScreen';
 import Info from './src/screens/HospInfo/Info';
+import DashScreen from './src/screens/HosDash/dashScreen';
 
 const Stack = createStackNavigator();
 
@@ -30,6 +31,11 @@ const App = () => {
         <Stack.Screen
           component={Info}
           name="Info"
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          component={DashScreen}
+          name="DashScreen"
           options={{headerShown: false}}
         />
       </Stack.Navigator>

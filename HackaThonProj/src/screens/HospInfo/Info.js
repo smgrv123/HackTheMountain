@@ -2,10 +2,17 @@ import React, {useState, useEffect} from 'react';
 import {View, Text, FlatList, TouchableOpacity, Alert} from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 import Icon from 'react-native-vector-icons/EvilIcons';
+import { useNavigation } from '@react-navigation/native';
+import Store from '../../Store';
 
 const Info = () => {
   const [userData, setuserData] = useState();
+  const [load, setload] = useState(true);
+
+const navigation=useNavigation()
+
   useEffect(() => {
+    setload(true)
     var temp = [];
     firestore()
       .collection('hospitals')
@@ -13,10 +20,18 @@ const Info = () => {
       .then(snap => {
         snap.docs.forEach(doc => {
           temp.push(doc.data());
-          setuserData(temp);
         });
+        setuserData(temp);
       });
+      setload(false);
   }, []);
+
+
+// if(!load){
+//   userData.forEach((ele)=>{
+//     console.log(ele);
+//   })
+// }
 
   return (
     <View style={{backgroundColor: '#303841', flex: 1}}>
@@ -53,7 +68,10 @@ const Info = () => {
                   paddingLeft: '5%',
                   paddingRight: '5%',
                 }}
-                onPress={() => {}}>
+                onPress={() => {
+                  Store.setHosData(item)
+                  navigation.navigate('DashScreen')
+                }}>
                 <View
                   style={{
                     flex: 1,
