@@ -26,9 +26,9 @@ const styles=StyleSheet.create({
       },
       title: {
         paddingLeft: '2%',
-        fontWeight: 'bold',
         fontSize: 17,
         marginBottom: '1%',
+        color:"#EEEEEE"
       },
       base: {backgroundColor: '#303841', flex: 1},
       text: {
