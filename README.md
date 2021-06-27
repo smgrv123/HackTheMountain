@@ -33,17 +33,12 @@
 
 ## Features offered by Medic
 
-- ### **Corner Detection**
-  - Using `opencv`, `imutils` to recognise end pooints of the board.
-- ### **Edge Detection**
-  - Combinations to figure out best possible board-frame and detecting its edges.
-- ### **Pixel Mapping**
-  - Using `canny` to transform image to first a Gaussian Blur, and eventually its pixels.
-- ### **Real-time Audio Communication**
-  - The Teacher is in constant contact with the Student(s) using `webRTC` audio channels.
-- ### **Efficient & Real-time transmission of data**
-  - Scanning of the board, generation of pixel array, and real-time transmission of this array via `Socket.IO` and plotting the pixels on the Students canvas using `Canvas API`.
-
+- ### **Real Time predictions of Hospital Data**
+  - Using 'PyTorch' model to predict hospital data of the next day.
+- ### **Hospital Side Web Application**
+  - An interface for the hospital to update data from its database and also add and update patient medical history.
+- ### **Patient Side App**
+  - An interface for a patient to browse through nearby hospitals and select a hospital based on its performance, also observe        his/her medical history live.
 ## Technology Stack and Dependencies
 
 - **ML**
@@ -65,25 +60,25 @@
 <table align="center">
 <tr align="center">
 <td>
-<strong>Abhishek Saxena</strong>
+<strong>Breenda Das</strong>
 <p align="center">
-<img src = "https://avatars0.githubusercontent.com/u/33656173?s=400&u=a411c58cfffec9bf59da192674093abf4b82bd04&v=4"  height="120" alt="Abhishek Saxena">
+<img src = ""  height="120" alt="Breenda Das">
 </p>
 <p align="center">
-<a href = "https://github.com/saxenabhishek"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/abhibored">
+<a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "">
 <img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
 </a>
 </p>
 </td>
 <td>
-<strong>Ansh Sharma</strong>
+<strong>Shubra Agarwal</strong>
 <p align="center">
-<img src = "https://avatars2.githubusercontent.com/u/60016461?s=400&u=9e9d50e037da73a840a5c43f8f2c2b98942452aa&v=4"  height="120" alt="Ansh Sharma">
+<img src = "https://avatars2.githubusercontent.com/u/60016461?s=400&u=9e9d50e037da73a840a5c43f8f2c2b98942452aa&v=4"  height="120" alt="Shubra Agarwal">
 </p>
 <p align="center">
-<a href = "https://github.com/DaemonOnCode"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/anshsharma09">
+<a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "">
 <img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
 </a>
 </p>
@@ -93,25 +88,25 @@
 <table align="center">
 <tr align="center">
 <td>
-<strong>Gita Alekhya Paul</strong>
+<strong>Palak Aggarwal</strong>
 <p align="center">
-<img src = "https://avatars3.githubusercontent.com/u/54375111?s=460&u=0585ce48d7a98d878ee16041d73695e37b17ade0&v=4"  height="120" alt="Gita Alekhya Paul">
+<img src = "https://avatars3.githubusercontent.com/u/54375111?s=460&u=0585ce48d7a98d878ee16041d73695e37b17ade0&v=4"  height="120" alt="Palak Aggarwal">
 </p>
 <p align="center">
-<a href = "https://github.com/gitaalekhyapaul"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
 <a href = "https://www.linkedin.com/in/gitaalekhyapaul">
 <img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
 </a>
 </p>
 </td>
 <td>
-<strong>Yashvardhan Jagnani</strong>
+<strong>Sumrit Grover</strong>
 <p align="center">
-<img src = "https://avatars0.githubusercontent.com/u/60016972?s=460&u=44becacb17c82494c8a16c1d17f9f7183f8d67c3&v=4"  height="120" alt="Yashvardhan Jagnani">
+<img src = "https://avatars0.githubusercontent.com/u/60016972?s=460&u=44becacb17c82494c8a16c1d17f9f7183f8d67c3&v=4"  height="120" alt="Sumrit Grover">
 </p>
 <p align="center">
-<a href = "https://github.com/jagnani73"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/yashvardhan-jagnani">
+<a href = ""><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "">
 <img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
 </a>
 </p>
