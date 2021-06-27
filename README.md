@@ -71,7 +71,9 @@
 
 ## Important Links
   - <a href="https://hopeful-babbage-6d48f7.netlify.app"> Hosted Link </a>
-  - <a href="https://www.canva.com/design/DAEikQauB68/tzTyV-KfnP3GraoQDnhIqA/view?utm_content=DAEikQauB68&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"> Presentation </a>
+  - <a href="https://www.canva.com/design/DAEikQauB68/tzTyV-KfnP3GraoQDnhIqA/view?utm_content=DAEikQauB68&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">
+  Presentation </a>
+  - <a href="https://drive.google.com/file/d/1_KIXnqHL9qpJMO1dygxSb4etG38lUSsQ/view?usp=sharing">Video Walkthrough </a>
   
 # Thank You!
 
