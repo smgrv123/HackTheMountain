@@ -2,8 +2,7 @@
 
 # **Medic** - HackTheMountains 2.0
 
-### Parda hai Parda? Not Anymore.
-
+### Improving Lives Together.
 ---
 
 ## A Preview of What Medic Is:
