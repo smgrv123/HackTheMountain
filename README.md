@@ -5,35 +5,6 @@
 ### Improving Lives Together.
 ---
 
-## A Preview of What Medic Is:
-
-## Landing page:
-
-![Home Screenshot](https://user-images.githubusercontent.com/67220475/123537142-99ee9180-d74b-11eb-824c-dd9a69051bf5.png)
-
-## View from the hospital's dashboard
-
-![image](https://user-images.githubusercontent.com/67220475/123538320-f654af80-d751-11eb-9e74-914d86ea56aa.png)
-
-## Adding a new patient details
-
-![image](https://user-images.githubusercontent.com/67220475/123537241-08cbea80-d74c-11eb-9c1f-5f50a9db0356.png)
-  
-## Patient's Side
-  
-  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645348040704020/Screenshot_1624787227.png"  height="400" alt="Patient">
-  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645348356718602/Screenshot_1624787314.png"  height="400" alt="Patient">
-  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645349374754836/Screenshot_1624787321.png"  height="400" alt="Patient">
-  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645351220641792/Screenshot_1624787342.png"  height="400" alt="Patient">
-  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645346975612938/Screenshot_1624787366.png"  height="400" alt="Patient">
-  <img src = "https://cdn.discordapp.com/attachments/857649911759896579/858645341750689792/Screenshot_1624787356.png"  height="400" alt="Patient">
-
-## Firebase
-  ![image](https://user-images.githubusercontent.com/67220475/123540411-7718a900-d75c-11eb-8f6b-6a9c52241b14.png)
-  ![image](https://user-images.githubusercontent.com/67220475/123540391-58b2ad80-d75c-11eb-8496-48657e799d9e.png)
-  ![image](https://user-images.githubusercontent.com/67220475/123540394-5d776180-d75c-11eb-9b17-0ca74b77292b.png)
-  ![image](https://user-images.githubusercontent.com/67220475/123540396-61a37f00-d75c-11eb-8ac8-acc99a53abc1.png)
-
 
 ## The problem Medic solves
 
@@ -68,12 +39,22 @@
   - Ionic Framework with React
   - React Native for the patient's app
   - Chart.js API
+  
+## How to setup dev environment
+   ### git clone repo link
+ - **Website**
+    - npm install
+    - ionic serve
+- **App**
+  - yarn install
+  - react-native run-android/react-native run-ios
+- **ML**
+  - Ionic Framework with React
+  - React Native for the patient's app
+  - Chart.js API
 
 ## Important Links
   - <a href="https://hopeful-babbage-6d48f7.netlify.app"> Hosted Link </a>
-  - <a href="https://www.canva.com/design/DAEikQauB68/tzTyV-KfnP3GraoQDnhIqA/view?utm_content=DAEikQauB68&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">
-  Presentation </a>
-  - <a href="https://drive.google.com/file/d/1_KIXnqHL9qpJMO1dygxSb4etG38lUSsQ/view?usp=sharing">Video Walkthrough </a>
   
 # Thank You!
 
