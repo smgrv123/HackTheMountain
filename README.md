@@ -43,15 +43,17 @@
 ## How to setup dev environment
    ### git clone repo link
  - **Website**
+    - cd hospital_side
     - npm install
     - ionic serve
 - **App**
+  - cd patient_side
   - yarn install
   - react-native run-android/react-native run-ios
 - **ML**
-  - Ionic Framework with React
-  - React Native for the patient's app
-  - Chart.js API
+  - backend and ML
+  - pip3 install -r requirements.txt
+  - python 3 main.py
 
 ## Important Links
   - <a href="https://hopeful-babbage-6d48f7.netlify.app"> Hosted Link </a>
