@@ -1,6 +1,6 @@
 <p align="center"><img src="https://cdn.discordapp.com/attachments/852945305280577588/858615260943220756/unknown.png" width="100" height="100"</p>
 
-# **Medic** - HackTheMountains 2.0
+# **Medic** 
 
 ### Improving Lives Together.
 ---
